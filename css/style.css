@@ -96,6 +96,33 @@
     opacity:50%;
 }
 
+/* Resposive */
+@media (max-width: 375px){
+    .card{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 90vw;
+        height: 90vh;
+    }
+    .desc {
+        width: auto;
+        height: 70%;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    .stats {
+        flex-direction: column;
+    }
+    .card .stats .companies, .card .stats .templates{
+        margin-bottom: 2rem;
+    }
+    .card-img{
+        height: 30%;
+        width:100%;
+        border-radius: 7px 7px 0 0;
+        }
+}
+
 
 
 
